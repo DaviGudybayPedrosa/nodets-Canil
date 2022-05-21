@@ -11,7 +11,7 @@ router.get('/fishes', PageController.fishes);
 
 router.get('/search', SearchController.search);
 
-router.get('/', (req, res)=>{
+router.get('/', (req, res)=>{ 
     res.send('home');
 });
 

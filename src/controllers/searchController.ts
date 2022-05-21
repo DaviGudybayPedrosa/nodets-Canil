@@ -10,7 +10,7 @@ export const search = (req: Request, res: Response) => {
     if(!query){
         res.redirect('/');
         return;
-    }
+    } 
 
     let list = Pet.getFromName(query);
 

@@ -9,7 +9,7 @@ export const home = (req: Request, res: Response) => {
     res.render('pages/page',{
         menu: createMenuObject('all'),
         banner:{
-            tittle: 'Todos os animais',
+            tittle: 'Todos os animais', 
             background: 'allanimals.jpg'
         },
         list

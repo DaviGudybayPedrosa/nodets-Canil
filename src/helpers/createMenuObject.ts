@@ -9,7 +9,7 @@ export const createMenuObject = (activeMenu: MenuOptions) => {
         fish: false
     };
     if(activeMenu !== '') {
-        returnObject[activeMenu] = true;
+        returnObject[activeMenu] = true; 
     }
     return returnObject;
 
